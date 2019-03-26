@@ -1,0 +1,16 @@
+categoria = 1
+bonoResultado = 1
+
+def sueldoPepe():
+    print(sueldoNeto())
+    
+def sueldoNeto():
+    neto = 0
+    if categoria == 1:
+        neto = 15000
+    if categoria == 2:
+        neto = 20000
+    return(neto)
+
+def bonoR():
+    bono = 0
